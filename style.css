@@ -11,7 +11,7 @@
             background-color: #ffffff;
             justify-content: center;
             align-items: center;
-            height: 150vh;
+            height: 100vh;
         }
 /*header {
     
@@ -34,7 +34,7 @@ header img{
             width: 90%;
             max-width: 400px;
             border-radius: 8px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            /*box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);*/
             text-align: center;
         }
 
