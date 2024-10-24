@@ -8,7 +8,7 @@
             font-family: Arial, sans-serif;
             /*background-color: #f7f9fc;*/
             /*display: flex;*/
-            background-color: #ffffff;
+            background-color: #FFFFFF;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -22,8 +22,16 @@
     height:100%;
 }*/
 header img{
-    width:100%; 
+   width:100%;
+    background-color:#74659a;
+    border-radius: 3px;
+    margin-top: -6px;
     
+}
+
+.page_main img{
+    width:100%; 
+    margin-top: -4px;
 }
         /* Container for the login form */
         .login-container {
