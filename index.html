@@ -24,15 +24,15 @@
         
 
         <!-- Login Form -->
-        <form class="login-form" action="/login" method="POST">
+        <form class="login-form" id="loginForm">
            
-             <h3> رقم المميز</h3> <input type="text" name="username" placeholder="ادخل رقم المميز" required>
-            <h3> كلمة المرور</h3> <input type="password" name="password" placeholder="ادخل كلمه المرور" required> 
+             <h3> رقم المميز</h3> <input type="text" name="username" id="username" placeholder="ادخل رقم المميز" required>
+            <h3> كلمة المرور</h3> <input type="password" name="password" id="password" placeholder="ادخل كلمه المرور" required> 
             <img src="img/vision-svgrepo-com.svg" alt="menu item thumbnail" style="width:25px; height:25px;margin-top: 125px;position: absolute;margin-left: 35px;">
             
             
             <!-- Login Button -->
-            <button type="submit">دخول</button>
+            <button type="submit" >دخول</button>
             
       <img src="img/fingerprint2.svg" alt="image" style="color:#fda506;width:60px; height:55px;margin-top: 175px; padding: 0;position: absolute;margin-left: 70px;">
              <!-- Remember Me Option -->
@@ -45,9 +45,10 @@
             <!-- Forgot Password Link -->
             <a href="/forgot-password" >نسيت كلمة المرور</a> 
             <img src="img/lock-svgrepo-com.svg" alt="menu item thumbnail" style="width:25px; height:25px;margin-top: 225px;position: absolute;margin-left: 150px;"> 
+            
         </form>
 
-
+<div id="error" class="error"></div>
         <!-- Footer Links for Policy and Contact -->
         <div class="footer">
          <!--   <a href="/privacy-policy">Privacy Policy</a>
@@ -56,5 +57,30 @@
         </div>
     </div>
 
+<script>
+    const loginForm = document.getElementById('loginForm');
+    const errorDiv = document.getElementById('error');
+
+    // Example hardcoded credentials (for demonstration purposes)
+    const validUsername = 'الكريمي';
+    const validPassword = '123';
+
+    loginForm.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the form from submitting the traditional way
+
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+
+      // Validate credentials
+      if (username === validUsername && password === validPassword) {
+        // Redirect to another page if credentials are correct
+        window.location.href = 'category.html'; // Replace 'welcome.html' with your target page
+      } else {
+        // Show an error message
+        errorDiv.textContent = 'Invalid username or password. Please try again.';
+      }
+    });
+  </script>
+  
 </body>
 </html>

@@ -29,12 +29,12 @@ header img{
         .login-container {
        /* margin-top: 210px;*/
        margin-top: 1px;
-            background-color:#fff;
+            background-color:#FFFFFF;
             padding: 9rem;
             width: 90%;
             max-width: 400px;
             border-radius: 8px;
-            /*box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);*/
+           /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);*/
             text-align: center;
         }
 
@@ -111,7 +111,10 @@ header img{
             margin-left: 120px;
             margin-top: 5px;
             position: absolute;
+            background-color: #74659a;
+            
         }
+         
 
         .login-form a {
             color: #74659a;
@@ -121,7 +124,7 @@ header img{
             font-size: 16px;
             text-align: left;
             position: absolute;
-            
+               
             
         }
 
