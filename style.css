@@ -71,7 +71,7 @@ header img{
             font-size: 16px;
             background-color:#bab1ce;
             text-align: right;
-            
+            color:#FFFFFF;
             
         }
 
@@ -100,7 +100,7 @@ header img{
   margin-left: 160px;
 }
         .login-form button:hover {
-            background-color: #005fa3;
+            background-color: #fda506;
         }
 
         /* Checkbox and Links */
