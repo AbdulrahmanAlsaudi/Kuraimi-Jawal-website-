@@ -1,0 +1,68 @@
+
+    /* Slider container */
+    
+    header img{
+   width:100%;
+    background-color:#74659a;
+    border-radius: 3px;
+    margin-top: -6px;
+}
+    .slider {
+      width: 100%;
+      max-width: 600px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Slider images */
+    .slides {
+      display: flex;
+      width: 100%;
+      animation: slide 5s infinite;
+    }
+
+    /* Each slide should take 100% width */
+    .slides img {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Keyframe animation for sliding effect */
+  /*  @keyframes slide {
+      0% { transform: translateX(0%); }
+      20% { transform: translateX(0%); }
+      25% { transform: translateX(-100%); }
+      45% { transform: translateX(-100%); }
+      50% { transform: translateX(-200%); }
+      70% { transform: translateX(-200%); }
+      75% { transform: translateX(-300%); }
+      95% { transform: translateX(-300%); }
+      100% { transform: translateX(0%); }
+    }*/
+    
+    @keyframes slide {
+      0% { transform: translateX(0%); }
+      10% { transform: translateX(0%); }
+      25% { transform: translateX(-100%); }
+      40% { transform: translateX(-100%); }
+      55% { transform: translateX(-200%); }
+      65% { transform: translateX(-200%); }
+      75% { transform: translateX(-300%); }
+      80% { transform: translateX(-300%); }
+      85% { transform: translateX(-400%); }
+      
+      95% { transform: translateX(-400%); }
+      100% { transform: translateX(0%); }
+    }
+
+    /* To remove padding/margin from the body */
+    body {
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+      
+    }
+  
