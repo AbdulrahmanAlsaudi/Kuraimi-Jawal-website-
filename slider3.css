@@ -18,7 +18,7 @@
     .slides {
       display: flex;
       width: 100%;
-      animation: slide 5s infinite;
+      animation: slide 10s infinite;
     }
 
     /* Each slide should take 100% width */
@@ -28,7 +28,7 @@
     }
 
     /* Keyframe animation for sliding effect */
-  /*  @keyframes slide {
+    @keyframes slide {
       0% { transform: translateX(0%); }
       20% { transform: translateX(0%); }
       25% { transform: translateX(-100%); }
@@ -38,9 +38,9 @@
       75% { transform: translateX(-300%); }
       95% { transform: translateX(-300%); }
       100% { transform: translateX(0%); }
-    }*/
+    }
     
-    @keyframes slide {
+   /* @keyframes slide {
       0% { transform: translateX(0%); }
       10% { transform: translateX(0%); }
       25% { transform: translateX(-100%); }
@@ -53,7 +53,7 @@
       
       95% { transform: translateX(-400%); }
       100% { transform: translateX(0%); }
-    }
+    }*/
 
     /* To remove padding/margin from the body */
     body {
