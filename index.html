@@ -45,8 +45,8 @@
             <img src="assets/img/vision-svgrepo-com.svg" alt="menu item thumbnail" style="width:25px; height:25px;margin-top: -45px;position: absolute;margin-left: -150px;">
             </span>
             <!-- Login Button -->
-          <button type="submit" >دخول</button>
-          
+          <button type="submit" onclick="window.location.href='category.html'">دخول</button>
+            
           <!-- صوره البصمه -->
       <img src="assets/img/fingerprint2.svg" alt="image" style="color:#fda506;width:60px; height:55px;margin-top: 175px; padding: 0;position: absolute;margin-left: 70px;">
       
@@ -68,32 +68,6 @@
         </div>
     </div>
     
-              <!-- داله الدخول الى التطبيق  -->
-<script>
-    const loginForm = document.getElementById('loginForm');
-    const errorDiv = document.getElementById('error');
-
-    // Example hardcoded credentials (for demonstration purposes)
-    const validUsername = 'الكريمي';
-    const validPassword = '123';
-
-    loginForm.addEventListener('submit', function(event) {
-      event.preventDefault(); // Prevent the form from submitting the traditional way
-
-      const username = document.getElementById('username').value;
-      const password = document.getElementById('password').value;
-
-      // Validate credentials
-      if (username === validUsername && password === validPassword) {
-        // Redirect to another page if credentials are correct
-        window.location.href = 'Category page/category.html'; // Replace 'welcome.html' with your target page
-      } else {
-        // Show an error message
-        errorDiv.textContent = 'Invalid username or password. Please try again.';
-      }
-    });
-  </script>
-  
                    <!-- داله اضهار الرمز -->
   <script>
     function togglePasswordVisibility() {
