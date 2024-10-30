@@ -6,13 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Category Boxes</title>
     <link rel="stylesheet" href="assets/css/Send_transfer.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
     
 </head>
 <body>
+    
                      <!-- قسم راس الصفحة -->
     <header>
-       <img src="assets/img/account img/header_body1.jpg" alt="menu item thumbnail">
+       <img src="assets/img/account img/header_body.jpg" alt="menu item thumbnail">
     </header>
+    
+  <!-- Image Menu Button and List -->
+    <div class="menu-container">
+        <button class="menu-button" onclick="toggleMenu()">
+            <img src="assets/img/icons/menu-button.svg" alt="Menu" class="menu-icon">
+        </button>
+        <ul class="menu-list" id="menuList">
+            <li><a href="#home">الإعدادات</a></li>
+            <li><a href="index.html">خروج</a></li>
+        </ul>
+    </div>
+    
+     <!-- قسم البحث في الصفحه الرئيسية -->
     <form action="search_results.html" method="GET">
     <input type="search" name="query" placeholder="خذني إلى..." class="search-input" />
 </form>
@@ -69,5 +84,6 @@
    <img src="assets/img/account img/user.svg" alt="menu item thumbnail">
    <h3> بياناتي</h3>
    </div>
+   <script src="assets/css/menu.js"></script>
 </body>
 </html>
