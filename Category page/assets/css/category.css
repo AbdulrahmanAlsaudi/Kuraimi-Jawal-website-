@@ -21,9 +21,23 @@ header img{
 
 .page_main img{
     width:100%; 
-    margin-top: -4px;
+    margin-top: -10px;
+}
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 350px;
+    border: 0.5px solid #0000//;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+    direction:rtl;
+    margin-left:20px;
 }
 
+.search-input:focus {
+    border-color:;
+}
 
 .container {
     display: flex;
