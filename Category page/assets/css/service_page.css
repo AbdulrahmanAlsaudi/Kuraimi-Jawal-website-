@@ -15,24 +15,23 @@ header img{
    width:100%;
     background-color:#74659a;
     border-radius: 3px;
-    margin-top: -6px;
+    margin-top: -45px;
     
 }
 
-.page_main img{
-    width:100%; 
-    margin-top: -10px;
-}
+
 .search-input {
-    padding: 10px;
+    padding: 8px;
     font-size: 16px;
     width: 350px;
-    border: 0.5px solid #0000//;
+    border: 1px solid #0000//;
     border-radius: 8px;
     outline: none;
     transition: border-color 0.3s;
     direction:rtl;
-    margin-left:20px;
+    margin-left:30px;
+    margin-top: -98px;
+    opacity: 0.5;
 }
 
 .search-input:focus {
@@ -44,19 +43,19 @@ header img{
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: -5px;
 }
 
 .category-box {
     background-color: #fff;
-    color:#fff;
+    color:#74659a;
     border: 2px solid #ddd;
     border-radius: 8px;
-    width: 30%;
-    height: 80px;
-    margin: 6px;
-    padding: 3px;
-    margin-top: 30px;
+    width: 28%;
+    height: 115px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: 0.3s ease-in-out;
@@ -68,10 +67,9 @@ header img{
 }
 
 .category-box h3 {
-    font-size: 17px;
-    font-weight: bold;
-    margin-bottom: 1px;
-    margin-top: 10px;
+    font-size: 15px;
+    color:#000000;
+    margin-bottom: 15px;
     text-align: center;
     font-family: Impact, sans-serif;
 }
@@ -79,4 +77,45 @@ header img{
 .category-box:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
+}
+.home {
+    
+    margin-top: -80px;
+}
+.home img{
+width:30px;
+ height:30px;
+ margin-top:170px;
+ position:absolute;
+ margin-left:285px;
+    
+}
+.home h3{
+   width:40px;
+   height:40px;
+   margin-top:200px
+   ;position: absolute;
+   margin-left:280px;
+   font-size:15px;
+   color: #74659a;
+}
+user_info {
+    margin-top: -80px;
+}
+
+.user_info img{
+    width:30px;
+    height:30px;
+    margin-top:170px;
+    position:absolute;
+    margin-left:65px;
+}
+.user_info h3{
+   width:40px;
+   height:40px;
+   margin-top:200px;
+   position:absolute;
+   margin-left:60px;
+   font-size:15px;
+   color:#74659a;"
 }
